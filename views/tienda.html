@@ -1,117 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../style/estilo.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Martin Arroyo - Entretenimiento Y Produccion Musical</title>
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/grid-tienda.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Martin Arroyo | Produccion Y Entretenimiento</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
 </head>
-<body class="grid">
-    <header id="arriba">
-        <a id="logo" href="../index.html"><img src="../img/logos/logo_2.svg" alt="logo"></a>
-        <nav class="navbar_container">
-            <ul class="navbar_container-ul">
-                <li><a href="../views/newsletter.html">Newsletter</a></li>
-                <li><a href="../views/lanzamientos.html">Lanzamientos</a></li>
-                <li><a href="../views/tienda.html">Tienda</a></li>
-                <li><a href="../views/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>
+    <!-- Empieza Nav -->
+
+    <nav class="navbar navbar-expand-lg gradient px-3" id="arriba">
+        <div class="container-fluid">
+            <a class="navbar-brand p-3" href="../index.html"><img src="../img/logos/logo_2.svg" width="100px" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto border-bottom" id="navbar">
+                <a class="nav-link text-work-sans" href="../views/newsletter.html">Newsletter</a>
+                <a class="nav-link text-work-sans" href="../views/lanzamientos.html">Lanzamientos</a>
+                <a class="nav-link text-work-sans" href="../views/tienda.html">Tienda</a>
+                <a class="nav-link text-work-sans" href="../views/contacto.html">Contacto</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Termina Nav -->
+
+
     <main>
-        <section class="article_tienda"> 
+        <section class="container text-center article_tienda"> 
             <h1>Cursos</h1>
-            <article class="curso" >
-                <figure>
+            <article class="row curso" >
+                <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                     <img class="img_tienda" src="https://images.pexels.com/photos/306089/pexels-photo-306089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="curso de produccion">
                     <figcaption>Fundamentos de la produccion Musical</figcaption>
                     <p>5000$</p>
                 </figure>
-                <figure>
+                <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                     <img class="img_tienda" src="https://images.pexels.com/photos/306089/pexels-photo-306089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="curso de produccion">
                     <figcaption>Fundamentos de la produccion Musical</figcaption>
                     <p>5000$</p>
                 </figure>
-                <figure>
+                <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                     <img class="img_tienda" src="https://images.pexels.com/photos/306089/pexels-photo-306089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="curso de produccion">
                     <figcaption>Fundamentos de la produccion Musical</figcaption>
                     <p>5000$</p>
                 </figure>
-                <figure>
+                <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                     <img class="img_tienda" src="https://images.pexels.com/photos/306089/pexels-photo-306089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="curso de produccion">
                     <figcaption>Fundamentos de la produccion Musical</figcaption>
                     <p>5000$</p>
                 </figure>
             </article>
             <h1>Merchandising</h1>
-            <article class="merch">
-                
-                <figure >
-                    <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
-                    <figcaption>Remera <br> Thornhill - Heroine</figcaption>
-                    <p>(S - M - L - XL)</p>
-                    <p>1000$</p>
-                </figure>
-                <figure >
-                    <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
-                    <figcaption>Remera <br> Thornhill - Heroine</figcaption>
-                    <p>(S - M - L - XL)</p>
-                    <p>1000$</p>
-                </figure>
-                <figure >
-                    <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
-                    <figcaption>Remera <br> Thornhill - Heroine</figcaption>
-                    <p>(S - M - L - XL)</p>
-                    <p>1000$</p>
-                </figure>
-                <figure >
-                    <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
-                    <figcaption>Remera <br> Thornhill - Heroine</figcaption>
-                    <p>(S - M - L - XL)</p>
-                    <p>1000$</p>
-                </figure>
-                <figure >
-                    <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
-                    <figcaption>Remera <br> Thornhill - Heroine</figcaption>
-                    <p>(S - M - L - XL)</p>
-                    <p>1000$</p>
-                </figure>
-                <figure >
-                    <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
-                    <figcaption>Remera <br> Thornhill - Heroine</figcaption>
-                    <p>(S - M - L - XL)</p>
-                    <p>1000$</p>
-                </figure>
-                
+            <article class="row curso">
+                    <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                        <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
+                        <figcaption>Remera <br> Thornhill - Heroine</figcaption>
+                        <p>(S - M - L - XL)</p>
+                        <p>1000$</p>
+                    </figure>
+                    <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                        <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
+                        <figcaption>Remera <br> Thornhill - Heroine</figcaption>
+                        <p>(S - M - L - XL)</p>
+                        <p>1000$</p>
+                    </figure>
+                    <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                        <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
+                        <figcaption>Remera <br> Thornhill - Heroine</figcaption>
+                        <p>(S - M - L - XL)</p>
+                        <p>1000$</p>
+                    </figure>
+                    <figure class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+                        <img class="img_tienda" src="../img/misc/remera.png" alt="remera">
+                        <figcaption>Remera <br> Thornhill - Heroine</figcaption>
+                        <p>(S - M - L - XL)</p>
+                        <p>1000$</p>
+                    </figure>
             </article>
         </section>
     </main>
-    <aside class="ads">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <div class="relleno">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
-        <img src="https://via.placeholder.com/300" alt="espacio para anuncio">
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white">
+
+    <section class="d-flex justify-content-between p-4 gradient-inv">
+        <!-- Left -->
+        <div class="me-5">
+        <a class="text-white ir-arriba" href="#arriba">Ir Arriba</a>
         </div>
-    </aside>
-    <footer>
-        <a id="ir-arriba" href="#arriba">Ir Arriba</a>
-        <div class="footer_socialmedia">
-            <a target="_blank" href="https://www.youtube.com/channel/UCvGuo9tWDaVzEQ7aHMlmV4g"><img src="../img/logos/YouTube.svg" width="150px" alt="logo de youtube"></a>
-            <a target="_blank" href="https://www.instagram.com/martinarroyou/"><img src="../Img/logos/Instagram_Logo.svg" width="150px" alt="logo de instagram"></a>
-            <a target="_blank" href="https://twitter.com/Martin_Arroyo02"><img src="../Img/logos/Twitter_Logo.svg" width="150px" alt="logo de twitter"></a>
-            <a target="_blank" href="https://www.patreon.com/MartinArroyo?fan_landing=true"><img src="../Img/logos/Patreon_Logo.svg" width="150px" alt="logo de patreon"></a>
-            <a target="_blank" href="https://www.buymeacoffee.com/martinarroyo"><img src="../Img/logos/bmc_logo_yellow.svg" width="150px" alt="logo de buiymeacoffee"></a>
-            <br>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div class="footer-social-icons footer-icons" id="footer-icons">
+        <a target="blank" href="https://www.youtube.com/channel/UCvGuo9tWDaVzEQ7aHMlmV4g" class="text-white me-4">
+            <img width="45px" src="../img/logos/youtube-blanco.svg" alt="logo-youtube">
+        </a>
+        <a target="blank" href="https://www.instagram.com/martinarroyou/" class="text-white me-4">
+            <img width="37px" src="../img/logos/ig-blanco.svg" alt="logo-ig">
+        </a>
+        <a target="blank" href="https://www.patreon.com/MartinArroyo?fan_landing=true" class="text-white me-4">
+            <img width="37px" src="../img/logos/patreon-blanco.svg" alt="logo-patreon">
+        </a>
+        <a target="blank" href="https://www.buymeacoffee.com/martinarroyo" class="text-white me-4">
+            <img class="invert" width="37px" src="../img/logos/bmac-blanco.svg" alt="logo-bmac">
+        </a>
         </div>
+        <!-- Right -->
+    </section>
+    
+    <div class="text-center p-3 bg-black">
+        © 2022 Copyright
+    </div>
     </footer>
+    <!-- Footer -->
+
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
