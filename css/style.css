@@ -74,6 +74,70 @@ a, a:visited{
     }
 }
 
+/* animacion */
+
+.img-heroe {
+    width: 102%;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+from {
+    opacity: 0;
+    margin-left: 100%;
+}
+
+50%{
+    opacity: 0.5;
+}
+
+to {
+    opacity: 1;
+    margin-left: 0%;
+}
+}
+
+figure img, form{
+
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+from {
+    opacity: 0;
+    margin-left: 100%;
+}
+
+50%{
+    opacity: 0.5;
+}
+
+to {
+    opacity: 1;
+    margin-left: 0%;
+}
+}
+
+h1, iframe{
+
+    animation-duration: 1s;
+    animation-name: fade-in;
+}
+
+@keyframes fade-in {
+from {
+    opacity: 0;
+}
+
+to {
+    opacity: 1;
+}
+}
+
+/* animacion end */
+
 /* main */
 
 main{
@@ -91,13 +155,22 @@ figcaption{
     color: white;
 }
 
-/* newsletter */
+/* tienda */
 
 img.img_tienda{
     width: 100%;
 }
 
-/* newsletter end */
+figure img, iframe:hover{
+    transition: all 0.5s ease-out;
+}
+
+figure img:hover, iframe:hover{
+    transform: scale(95%);
+    cursor: pointer;
+}
+
+/* tienda end */
 
 .mensaje{
     display: flex;
@@ -165,12 +238,6 @@ iframe{
     margin: 10px;
     border-radius: 5%;
 }
-
-/* grid */
-
-
-/* form */
-
 
 /* footer */
 
