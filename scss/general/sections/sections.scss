@@ -1,0 +1,158 @@
+/* main */
+
+main{
+    min-height: 73vh;
+}
+
+figure{
+    padding: 20px;
+    margin: 10px 0;
+
+    & img{
+        width: 100%;
+        transition: transform 0.5s ease-out;
+    }
+
+    & img:hover, iframe:hover{
+        transform: scale(95%);
+        cursor: pointer;
+    }
+}
+
+figcaption{
+    text-align: center;
+    padding: 20px 0;
+    color: $clr-white;
+}
+
+/* header */
+
+.navbar-toggler-icon{
+    filter: invert(100);
+}
+
+nav{
+    background: $gradiente;
+}
+
+#navbar{
+    & a:hover{
+        color: $clr-black !important;
+        background-color: $clr-white;
+        transform: translateY(-5px);
+        opacity: 0.9;
+        transition: all 0.5s ease;
+        
+    }
+    
+}
+
+/* tienda */
+
+img.img_tienda{
+    width: 100%;
+}
+
+/* tienda end */
+
+/* contacto */
+
+.mensaje{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+
+.correo{
+    margin-left: 7.5px;
+}
+
+label{
+    padding: 0 15px ;
+}
+
+textarea{
+    resize: both;
+}
+
+.contenido{
+    max-width: 100%;
+}
+
+/* contacto end */
+
+/* lanzamientos */
+
+.vid_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px;
+}
+
+iframe{
+    padding: 20px;
+}
+
+/* lanzamientos end */
+
+/* newsletter */
+
+.main_newsletter{
+    min-height: 600px;
+    text-align: center;
+}
+
+.main_newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.newsletter_flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.newsletter_flex_container{
+    & label{
+        padding: 15px;
+    }
+    
+}
+
+.newsletter_flex_container{
+    & input{
+        margin: 10px;
+        border-radius: 5%;
+    }
+}
+
+
+/* newsletter end */
+
+/* footer */
+
+div#footer-icons{
+    & a{
+        & img:hover{
+            transform: translateY(-5px);
+            transition: all 0.5s ease;
+        }
+    }
+}
+
+.invert{
+    filter: invert(100);
+}
+
+footer{
+    & section{
+        background: $gradienteInv;
+    }
+}

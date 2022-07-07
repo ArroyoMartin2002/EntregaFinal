@@ -1,0 +1,46 @@
+/* general */
+
+body{
+    color: $clr-white;
+    background-image: url(../img/backgrounds/bg-noise-b.png);
+    overflow-x: hidden;
+    font-family: $ff-arial;
+}
+
+h1,h2,h3{
+    font-family: $ff-worksans;
+    color: $clr-white;
+    padding: 15px;
+}
+
+p{
+    font-family: $ff-arial;
+    color: $clr-white;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+a{  
+    text-decoration: none;
+    color: $clr-white !important;
+    font-family: $ff-arial;
+    &:visited{
+        text-decoration: none;
+    }
+}
+
+    /* breakpoints */
+
+    @media only screen and (max-width: 991px) {
+        #navbar{
+            padding-left: 15px;
+        }
+    }
+
+    @media only screen and (max-width: 417px) {
+    
+        .footer-social-icons a img{width: 25px ;}
+    
+    }
+
+    

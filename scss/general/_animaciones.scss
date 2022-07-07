@@ -1,0 +1,59 @@
+/* animaciones */
+
+.img-heroe{
+    width: 100%;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+        margin-left: 100%;
+    }
+    
+    50%{
+        opacity: 0.5;
+    }
+    
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+    }
+
+    h1, iframe, figure {
+        animation-duration: 1s;
+        animation-name: fade-in;
+    }
+    
+    @keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    }
+
+    form{
+
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+    from {
+        opacity: 0;
+        margin-left: 100%;
+    }
+    
+    50%{
+        opacity: 0.5;
+    }
+    
+    to {
+        opacity: 1;
+        margin-left: 0%;
+    }
+    }
