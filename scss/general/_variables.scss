@@ -1,9 +1,26 @@
+/* mixins */
+
+@mixin center {
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* colores */
 
 $clr-white: #ffffff;
 $clr-black: #000000;
 $gradiente: linear-gradient(#000000, #031418);
 $gradienteInv: linear-gradient(#031418, #000000);
+
+$colors: (blanco:$clr-white,negro:$clr-black, gradiente:$gradiente,gradienteinv:$gradienteInv);
 
 /* fonts */
 

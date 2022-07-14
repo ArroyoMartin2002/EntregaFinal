@@ -9,7 +9,7 @@ figure{
     margin: 10px 0;
 
     & img{
-        width: 100%;
+        @extend .img-heroe;
         transition: transform 0.5s ease-out;
     }
 
@@ -20,7 +20,7 @@ figure{
 }
 
 figcaption{
-    text-align: center;
+    @include center;
     padding: 20px 0;
     color: $clr-white;
 }
@@ -32,13 +32,13 @@ figcaption{
 }
 
 nav{
-    background: $gradiente;
+    background: map-get($colors, gradiente);
 }
 
 #navbar{
     & a:hover{
-        color: $clr-black !important;
-        background-color: $clr-white;
+        color: map-get($colors, negro) !important;
+        background-color: map-get($colors, blanco);
         transform: translateY(-5px);
         opacity: 0.9;
         transition: all 0.5s ease;
@@ -58,8 +58,7 @@ img.img_tienda{
 /* contacto */
 
 .mensaje{
-    display: flex;
-    flex-wrap: wrap;
+    @include wrap;
     align-items:flex-start;
 }
 
@@ -84,9 +83,8 @@ textarea{
 /* lanzamientos */
 
 .vid_container{
-    display: flex;
+    @include wrap;
     justify-content: space-between;
-    flex-wrap: wrap;
     flex-direction: row;
     margin: 5px;
 }
@@ -101,35 +99,24 @@ iframe{
 
 .main_newsletter{
     min-height: 600px;
-    text-align: center;
-}
-
-.main_newsletter{
-    display: flex;
-    flex-wrap: wrap;
+    @include wrap;
     flex-direction: column;
 }
 
 .newsletter_flex_container{
-    display: flex;
-    flex-wrap: wrap;
+    @include wrap;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    @include center;
     padding: 10px;
-}
-
-.newsletter_flex_container{
-    & label{
-        padding: 15px;
-    }
-    
 }
 
 .newsletter_flex_container{
     & input{
         margin: 10px;
         border-radius: 5%;
+    }
+    & label{
+        padding: 15px;
     }
 }
 
@@ -153,6 +140,6 @@ div#footer-icons{
 
 footer{
     & section{
-        background: $gradienteInv;
+        background: map-get($colors, gradienteinv);
     }
 }

@@ -1,7 +1,7 @@
 /* general */
 
 body{
-    color: $clr-white;
+    color: map-get($colors, blanco);
     background-image: url(../img/backgrounds/bg-noise-b.png);
     overflow-x: hidden;
     font-family: $ff-arial;
@@ -9,7 +9,6 @@ body{
 
 h1,h2,h3{
     font-family: $ff-worksans;
-    color: $clr-white;
     padding: 15px;
 }
 
@@ -22,7 +21,7 @@ p{
 
 a{  
     text-decoration: none;
-    color: $clr-white !important;
+    color: map-get($colors, blanco) !important;
     font-family: $ff-arial;
     &:visited{
         text-decoration: none;
