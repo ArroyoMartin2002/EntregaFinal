@@ -10,10 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/ArroyoMartin2002/bootstrap.git"
   },
-  "author": "",
+  "author": "Martin Arroyo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ArroyoMartin2002/bootstrap/issues"
-  },
-  "homepage": "https://github.com/ArroyoMartin2002/bootstrap#readme"
+  }
 }
